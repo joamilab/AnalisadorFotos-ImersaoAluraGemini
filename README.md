@@ -15,11 +15,14 @@ Necessário ter pelo menos uma foto disponível seguindo uma das opções abaixo
 
 <img src="https://github.com/joamilab/AnalisadorFotos-ImersaoAluraGemini/blob/main/conectar-drive-colab.png">
 
-## Entrada (prompt)
+## Entradas
+* Prompt:
 "Analisar se esta foto é adequada para usar em um perfil profissional.
  Se a foto for adequada, enumerar os pontos fortes, em tópicos.
  Se a foto não for adequada, enumerar os pontos fracos, em tópicos.
  Enumerar até 5 dicas para uma boa foto profissional, em tópicos."
+
+* Foto: A foto deve estar no ambiente do Google Colab ou no Google Drive. Então, copie o caminho e cole quando pedida na célula de código 4.
 
  ## Saída
  * Análise em texto feita pelo 'gemini-pro-vision'.
